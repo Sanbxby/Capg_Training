@@ -1,6 +1,8 @@
 package Comparator;
 
-public class Book  {
+import java.util.Comparator;
+
+public class Book implements Comparator  {
 	int id;
 	String name;
 	double price;
@@ -12,11 +14,12 @@ public class Book  {
 		this.name = name;
 		this.price = price;
 	}
-//	
-//	@Override
-//	public int compare(Object o1,)
+	@Override
+	public String toString(){
+		return id+"\t"+name+"\t"+price;
+
 	
-	
+	}
 	
 
 }
