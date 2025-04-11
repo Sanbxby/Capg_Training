@@ -174,6 +174,19 @@ public class singly_LL {
 		}
 		return -1;
 	}
+	
+	public int returnValue(int index) {
+		if(index<0 || index>=size) {
+			throw new IndexOutOfBoundsException();
+		}
+		Node temp=head;
+		int i=0;
+		while(i!=index) {
+			temp=temp.next;
+			i++;
+		}
+		return temp.value;
+	}
 
 
 	private class Node {
