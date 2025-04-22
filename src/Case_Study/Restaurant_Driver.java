@@ -10,7 +10,7 @@ public class Restaurant_Driver {
 	
 		Set<String> menu= new HashSet<>(Arrays.asList("Pizza","Burger","Fries","Pasta","Milkshake","Fried Chicken","Ramen","Biryani"));
 		Restaurent restaurent=new Restaurent("FoodZpah",menu);
-		Customer customr=new Customer("Sanju",true);
+		Customer customr=new Customer("Raj",true);
 		
 		List<String>itemsToOrder=Arrays.asList("Fries","Burger","Fried Chicken","Milkshake");
 		
