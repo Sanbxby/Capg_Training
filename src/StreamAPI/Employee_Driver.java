@@ -48,5 +48,14 @@ public class Employee_Driver {
 		System.out.println("=====================================================================================================");
 		Employee e=empList.stream().filter(i -> i.getGender()=="F").min((e1,e2) -> e1.getAge() - e2.getAge()).get();
 		System.out.println("Youngest Female employee:"+e);
+		
+		//Q1. Find the emp whose age is > 25 and < 30
+		//Q2. Find all emp from Hr dept
+		//Q3. Find all emp who lives in blr sort them by their name and then print the name of emp
+		//Q4. Get total number of emp in the org // use count method
+		//Q5. Sort the emp based on the age
+		//Q7. find the highest exp emp in the org
+		//Q8. Find the highest salary in the org
+		
 	}
 }
